@@ -1,0 +1,89 @@
+
+Namp informe general de la ip:127.0.0.1
+
+Starting Nmap 7.95 ( https://nmap.org ) at 2024-08-12 19:43 Hora est. SudamÚrica PacÝfico
+Nmap scan report for localhost (127.0.0.1)
+Host is up (0.0021s latency).
+Not shown: 993 closed tcp ports (reset)
+PORT     STATE SERVICE
+21/tcp   open  ftp
+| ftp-syst:
+|_  SYST: UNIX emulated by FileZilla
+80/tcp   open  http
+| http-title: Welcome to XAMPP
+|_Requested resource was http://localhost/dashboard/
+135/tcp  open  msrpc
+443/tcp  open  https
+|_ssl-date: TLS randomness does not represent time
+| ssl-cert: Subject: commonName=localhost
+| Not valid before: 2009-11-10T23:48:47
+|_Not valid after:  2019-11-08T23:48:47
+| tls-alpn:
+|_  http/1.1
+| http-title: Welcome to XAMPP
+|_Requested resource was https://localhost/dashboard/
+445/tcp  open  microsoft-ds
+3306/tcp open  mysql
+| mysql-info:
+|   Protocol: 10
+|   Version: 5.5.5-10.4.32-MariaDB
+|   Thread ID: 246
+|   Capabilities flags: 63486
+|   Some Capabilities: Support41Auth, InteractiveClient, Speaks41ProtocolOld, IgnoreSigpipes, DontAllowDatabaseTableColumn, LongColumnFlag, Speaks41ProtocolNew, FoundRows, SupportsTransactions, SupportsLoadDataLocal, ConnectWithDatabase, ODBCClient, SupportsCompression, IgnoreSpaceBeforeParenthesis, SupportsMultipleResults, SupportsAuthPlugins, SupportsMultipleStatments
+|   Status: Autocommit
+|   Salt: 3'eL,6h.IfD`9:Tz+a)H
+|_  Auth Plugin Name: mysql_native_password
+8080/tcp open  http-proxy
+|_http-title: Site doesn't have a title (text/html;charset=utf-8).
+| http-robots.txt: 1 disallowed entry
+|_/
+
+Host script results:
+| smb2-time:
+|   date: 2024-08-12T23:43:47
+|_  start_date: N/A
+| smb2-security-mode:
+|   3:1:1:
+|_    Message signing enabled but not required
+
+Nmap done: 1 IP address (1 host up) scanned in 17.09 seconds
+
+C:\Users\darkv>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
